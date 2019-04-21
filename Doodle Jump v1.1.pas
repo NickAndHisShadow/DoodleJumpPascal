@@ -25,7 +25,7 @@ begin
   if (key = VK_Escape) then settings := false;
   if (key = VK_Escape) then gameover := false;
 end;
-\
+
 procedure keyup(key: integer);
 begin
   case key of
